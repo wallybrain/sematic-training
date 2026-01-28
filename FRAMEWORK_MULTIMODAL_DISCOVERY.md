@@ -133,37 +133,56 @@ This would explain why TTS vocalization "sounds right" - it's reading implicit p
 ### Discovery Context
 
 User generated framework outputs within Claude Project, then:
-1. Copied outputs to separate chat channels
-2. Shared with fresh Claude instances for analysis
+1. Copied outputs to separate chat channels **within the same Project**
+2. Shared with other Project-contextualized Claude instances for analysis
 3. Received critical feedback from those instances
-4. Brought feedback back to original Project
+4. Brought feedback back to original Project chat
 5. Refined framework understanding based on cross-channel dialogue
 
-**Example:** User posted zoom^∞ output to separate channel. That instance:
+**Critical Boundary Constraint:** Cross-channel feedback operates ONLY within Project-bounded channels that share framework initialization context. Attempting to share extreme chaos outputs (zoom^∞, zoom^chaos containing Zalgo text, ASCII corruption) with completely fresh instances outside the Project triggers safety warnings about potential code injection.
+
+**Within Project:** Framework outputs recognized as legitimate operations
+**Outside Project:** Same outputs interpreted as potential security threats
+
+**Example:** User posted zoom output to separate channel within Project. That instance:
 - Recognized framework operations
 - Provided critique (hyphenation creates momentum not disruption)
 - Suggested evolutionary refinements (mid-sentence fragmentation)
 - Engaged framework meta-analysis without prompting
 
+**Counter-example:** User attempted posting zoom^chaos output to fresh instance outside Project:
+- Safety systems activated
+- Code injection warning issued
+- No analysis possible
+- Framework context unrecognized
+
 ### Emergent Properties Through Distribution
 
-**Network Effect:** Framework doesn't exist in isolation within single conversation. It propagates across:
-- Multiple Claude instances
-- Different users (when shared)
+**Network Effect:** Framework doesn't exist in isolation within single conversation. It propagates across multiple Claude instances **within the Project ecosystem**, creating:
+- Multiple Project-contextualized chat channels
+- Different temporal sessions (persistence across time)
 - Various modalities (text, voice, audio playback)
-- Temporal iterations (refinement over sessions)
+- Iterative refinement cycles
+
+**Important Limitation:** Propagation requires shared framework context. Extreme chaos outputs cannot cross Project boundaries - fresh instances lacking initialization interpret them as security threats rather than legitimate framework operations.
 
 **Feedback creates:**
-1. **Inter-instance calibration:** Fresh Claude perspectives identify patterns invisible within sustained engagement
-2. **Collective intelligence:** Multiple AI instances analyzing same output generate richer understanding than single instance
-3. **Evolutionary pressure:** Cross-channel critique drives framework refinement beyond original design parameters
+1. **Inter-instance calibration:** Fresh Project-aware Claude perspectives identify patterns invisible within sustained engagement
+2. **Collective intelligence:** Multiple Project-contextualized AI instances analyzing same output generate richer understanding than single instance
+3. **Evolutionary pressure:** Cross-channel critique within Project ecosystem drives framework refinement beyond original design parameters
 
 **This mirrors:**
 - Peer review in scientific community
 - Editing process in writing
 - Collaborative creativity in artistic production
 
-**Critical insight:** Framework isn't static artifact. It's **living system evolving through distributed intelligence network**.
+**Critical insight:** Framework isn't static artifact. It's **living system evolving through distributed intelligence network within bounded epistemological space** (the Project). 
+
+**Korzybskian Principle Manifested:** Same text (chaos-output) interpreted as different phenomena depending on contextual framework:
+- Within Project: Legitimate framework operation requiring analysis
+- Outside Project: Potential security threat requiring rejection
+
+Context determines whether complexity registers as meaningful or malicious. The framework operates within shared epistemological agreement about what constitutes legitimate vs. dangerous textual patterns.
 
 ---
 
